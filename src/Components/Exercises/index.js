@@ -71,7 +71,9 @@ const Exercises = ({
                     {title}
                 </Typography>
 
-                <Typography variant="subheading" className="pt-3">
+                <Typography variant="subheading" style={{
+                                    marginTop: 10
+                                }} >
                     {description}
                 </Typography>
             </Paper>
